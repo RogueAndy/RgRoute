@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "RgRoute"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "路由组件"
   s.description  = <<-DESC
                     关于路由组件
@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
 
   s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
-  s.dependency "CTMediator", "25"
+  s.dependency "CTMediator", "~> 46"
 end

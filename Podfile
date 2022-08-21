@@ -2,5 +2,5 @@
 # platform :ios, '9.0'
 
 target 'ScRouteDemo' do
-  pod 'CTMediator', '~> 25'
+  pod 'CTMediator', '~> 46'
 end
